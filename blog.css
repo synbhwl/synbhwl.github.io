@@ -1,0 +1,149 @@
+* {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "inter", sans-serif;
+  background-color: white;
+ /* background-color: #121212;*/
+  color:black;
+}
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important; /* Prevents horizontal scroll */
+}
+i {
+  /*background-color: #121212;*/
+  background-color: white;
+  color:black;
+}
+hr {
+  height: 0.07rem;
+  background-color: #d0d7de;
+  /*#333333;*/
+  border: none;
+}
+/*heading*/
+@media (min-width: 768px) {
+  html {
+    font-size: 1.5rem; /* larger for tablets and up */
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 2rem; /* larger for desktops */
+  }
+}
+
+#name {
+  font-size: 1.2rem;
+  margin-left: 0.75rem;
+  
+}
+.heading {
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
+  z-index: 1000;
+  border-bottom:0.07rem solid #d0d7de;
+  /*#333333;*/
+}
+.opn-box  {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 3rem;
+ /* background-color: #1e2228;*/
+ background-color: #e8e8e8;
+  height: 5.5rem;
+  width: 100vw;
+}
+.opn-box p{
+  /*background-color: #1e2228;
+  color: #a9a9a9;*/
+  background-color: #e8e8e8;
+  color: #808080;
+  
+  margin-left: 1.5rem;
+  margin-block: 1.5rem;
+  font-size: 1.5rem;
+}
+/*links*/
+.links {
+  padding: 1rem;
+}
+.links h1{
+  font-size: 1.25rem;
+}
+.links ul {
+  /*list-style-type: none;*/
+  /*padding:0 0.5rem;*/
+  padding: 1 0.5rem;
+}
+.links ul li {
+  padding: 0.15rem;
+}
+/*
+.links ul li::before {
+  content:"> ";
+ color:#a9a9a9;
+}*/
+.links a {
+  color: #0969da;
+  /*font-weight: bold;*/
+  font-size: 0.9rem;
+}
+/*blogs*/
+.blogs {
+  padding: 1rem;
+  margin-top: 0.25rem;
+}
+.blogs h1 {
+  font-size: 1.25rem;
+}
+.blog_link {
+  display: block;
+  padding: 0.25rem;
+  border-top:0.07rem solid #d0d7de;
+  /*#333333;*/
+}
+.blog_link h1 {
+  color: #0969da;
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+.blog_link p {
+  margin-top: 0;
+  /*color: #a9a9a9;*/
+  color: #808080;
+  font-size: 0.9rem;
+}
+/*about me page*/
+.about{
+  padding: 1rem;
+}
+.about h1{
+  font-size: 1.5rem;
+}
+.about h2{
+  font-size: 1.2rem;
+}
+.about h3 {
+  font-size: 1rem;
+}
+.about h4 {
+  font-size: 0.95rem;
+}
+.about p {
+  font-size: 0.9rem;
+}
+.about li {
+  font-size: 0.9rem;
+}
+.about i {
+  font-size: 1.3rem;
+}
+#me {
+  width:15rem;
+}

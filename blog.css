@@ -136,7 +136,7 @@ hr {
   font-size: 0.95rem;
 }
 .about p {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 .about li {
   font-size: 0.9rem;
@@ -150,5 +150,6 @@ hr {
 
 /*footnotes*/
 .footnotes {
+  font-size: 0.9rem;
   color:#0969da;
 }

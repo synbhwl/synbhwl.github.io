@@ -162,3 +162,32 @@ hr {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+/*responsiveness*/
+@media (max-width: 600px) {
+    .whole {
+        white-space: normal;
+        width: 100%; 
+    }
+
+    .about {
+        padding: 1rem; 
+        width: 90%; 
+    }
+
+    .essays {
+         width: 90%; 
+    }
+
+    .name {
+        padding: 0.75rem; 
+    }
+
+    .menu div {
+        padding: 0.5rem 0.75rem; 
+    }
+
+    .links div {
+         padding: 0.75rem; 
+    }
+}

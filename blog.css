@@ -170,7 +170,7 @@ hr {
 /* Original CSS remains unchanged until media queries */
 
 /* Responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .whole {
         white-space: normal;
         width: 100%;

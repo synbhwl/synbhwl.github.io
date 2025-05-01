@@ -28,19 +28,19 @@ body {
 .name p {
   color: #d3d3d3;
   letter-spacing: 0.5rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 .name i {
   color: black;
   font-family: 'Font Awesome 6 Free' !important;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   opacity: 50%;
 }
 /*menu*/
 .menu {
   height: 100%;
   width: 0;
-  transition: width 0.3s ease;
+  transition: width 0.3s ease, box-shadow 0.3s;
   position: fixed;
   background-color: white;
   z-index: 1000;
@@ -49,13 +49,14 @@ body {
 }
 .menu.open{
   width: 15rem;
+  box-shadow: inset -0.5rem 0 0.75rem 0rem rgba(0, 0, 0, 0.2); /*edit*/
 }
 .menu div {
   display: block;
   width: 100%;
   padding: 0.75rem;
   border-top:0.05rem solid #d3d3d3;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
 }
@@ -64,13 +65,14 @@ body {
   white-space: nowrap;
   width: 100vw;
   min-height: 100vh;
+  z-index: 1001;
 }
 .whole.open {
   margin-left: 15rem;
 }
 /*essay header*/
 .essay-head{
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   margin-top: 2rem;
   font-weight: bold;
@@ -95,7 +97,8 @@ body {
   border-top: 0.05rem solid #d3d3d3;
   gap: 0;
   font-weight: bold;
-  font-size: 0.85rem;
+  /*font-size: 0.85rem;*/
+  font-size:1.25rem;
 }
 
 /*links*/
@@ -162,32 +165,83 @@ hr {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-
 /*responsiveness*/
+
+/* Original CSS remains unchanged until media queries */
+
+/* Responsiveness */
 @media (max-width: 600px) {
     .whole {
-        white-space: normal !important;
-        width: 100%; 
+        white-space: normal;
+        width: 100%;
     }
 
     .about {
-        padding: 1rem; 
-        width: 90%; 
+        padding: 1rem;
+        width: 90%;
     }
 
     .essays {
-         width: 90%; 
+        width: 90%;
     }
 
     .name {
-        padding: 0.75rem; 
+        padding: 1rem;
     }
 
     .menu div {
-        padding: 0.5rem 0.75rem; 
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
     }
 
     .links div {
-         padding: 0.75rem; 
+        padding: 0.75rem;
+    }
+
+    .menu.open {
+        width: 15rem;
+        box-shadow: inset 0 -0.5rem 0.75rem 0rem rgba(0, 0, 0, 0.2);
+    }
+
+    .whole.open {
+        margin-left: 15rem;
+    }
+
+    .essays-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .essays div {
+        font-size: 0.9rem;
+        padding: 1rem;
+    }
+
+    .essay-head {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .about h1 {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+    }
+
+    .about h2 {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .about p {
+        font-size: 0.8rem;
+    }
+
+    .name p {
+        font-size: 1.25rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .name i {
+        font-size: 1.2rem;
     }
 }

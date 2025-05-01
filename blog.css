@@ -166,7 +166,7 @@ hr {
 /*responsiveness*/
 @media (max-width: 600px) {
     .whole {
-        white-space: normal;
+        white-space: normal !important;
         width: 100%; 
     }
 

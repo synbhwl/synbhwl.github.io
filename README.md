@@ -2,7 +2,7 @@
 
 A minimalist, phone-coded personal website for publishing essays — built entirely on a phone using vanilla HTML, CSS, and JavaScript. The layout and aesthetic are inspired by Paul Graham's website, focusing on clarity, simplicity, and distraction-free reading.
 
-> The site is at: [https://synvhwl.github.io](https://synvhwl.github.io)
+> The site is at: [https://synbhwl.github.io](https://synvhwl.github.io)
 
 ## Features
 

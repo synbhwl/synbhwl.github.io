@@ -32,9 +32,9 @@ A minimalist, phone-coded personal website for publishing essays — built entir
 
 ## Status
 
-- ✅ Fully functional
-- 🗒 Currently contains ~5–6 essays
-- 💤 Writing paused, but structure ready for future updates
+- Fully functional
+- Currently contains ~5–6 essays
+- Writing paused, but structure ready for future updates
 
 ## Inspiration
 

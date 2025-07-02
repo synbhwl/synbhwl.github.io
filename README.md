@@ -28,8 +28,6 @@ A minimalist, phone-coded personal website for publishing essays — built entir
 - `/css/` → Styling files
 - `/js/` → Sidebar and interaction logic
 
----
-
 ## Status
 
 - Fully functional

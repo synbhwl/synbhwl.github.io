@@ -1,0 +1,103 @@
+
+html{
+    background-color: black;
+    font-family: "Fira Code", monospace;
+    font-size: 0.75rem;
+}
+
+.whole{
+    background-color:#0d0d0d;
+}
+
+.content{
+    background-color: #0d0d0d;
+    color: #dddddd;
+    /* color: lightgreen; */
+    padding: 1rem;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.importstatement{
+    font-size: 1.15rem;
+}
+
+code{
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    line-height: 1.5rem;
+}
+
+.key{
+    /* color: rgb(135, 206, 235); */
+    /* color: #FF914D; */
+    color: #D2323F;
+}
+
+.hlt{
+    color: #5c6370;
+}
+
+.fncontain{
+    display: block;
+    background-color: black;
+}
+
+.filename{
+    background-color: rgb(19, 20, 22);
+    color: whitesmoke;
+    padding: 0.5rem;
+    display:flex;
+    min-width: fit-content;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.var{
+    /* color: rgb(135, 206, 235); */
+    /* color: #FF914D; */
+    /* color: lightgreen; */
+    color: #dddddd;
+}
+
+.sym{
+    color: #f1fa8c;
+    /* color: white; */
+}
+
+.sym2{
+    /* color: white; */
+    /* color: #FF69B4; */
+    color: whitesmoke;
+}
+
+.string{
+    color: #7FC7FF;
+}
+
+.int{
+    color: #C3E8FF;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.func{
+    color: #C9B3FF;
+}
+
+.terminal{
+    background-color: rgb(19, 20, 22);
+    padding: 0.5rem;
+    color: white;
+}
+
+.other{
+    color: lightgreen;
+}
+
+.pic{
+    height: 10rem;
+}

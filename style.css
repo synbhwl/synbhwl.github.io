@@ -116,6 +116,15 @@ a{
 
 @media (max-width: 480px){
     html {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+    }
+
+    .whole{
+        background-color:#0d0d0d;
+        max-width: 45rem;
+    }
+
+    .content{
+        margin-right: 1.5rem;
     }
 }

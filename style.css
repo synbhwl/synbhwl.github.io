@@ -13,7 +13,9 @@ body{
 
 .whole{
     background-color:#0d0d0d;
-    max-width: 65rem;
+    /* max-width: 65rem; */
+    width: 100%;
+    max-width: 780px;
 }
 
 .content{

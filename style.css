@@ -109,8 +109,10 @@ a{
     html {
         font-size: 0.6rem;
     }
+}
 
-    .content{
-        margin-right: 1.5rem;
+@media (max-width: 440px){
+    .codeblock{
+        overflow-x: auto;
     }
 }

@@ -5,15 +5,22 @@ html{
     font-size: 0.75rem;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .whole{
     background-color:#0d0d0d;
+    max-width: 65rem;
 }
 
 .content{
     background-color: #0d0d0d;
     color: #dddddd;
     /* color: lightgreen; */
-    padding: 1rem;
+    padding: 2rem;
     overflow: hidden;
     overflow-wrap: break-word;
 }
@@ -91,7 +98,7 @@ a{
 
 .terminal{
     background-color: rgb(19, 20, 22);
-    padding: 0.5rem;
+    padding: 1.5rem;
     color: white;
 }
 
@@ -101,4 +108,14 @@ a{
 
 .pic{
     height: 10rem;
+}
+
+.tname{
+    color: #f1fa8c;
+}
+
+@media (max-width: 480px){
+    html {
+        font-size: 0.7rem;
+    }
 }

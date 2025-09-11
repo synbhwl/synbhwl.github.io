@@ -105,6 +105,10 @@ a{
     color: #f1fa8c;
 }
 
+.rawlink{
+    text-decoration: underline;
+}
+
 @media (max-width: 480px){
     html {
         font-size: 0.6rem;

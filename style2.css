@@ -1,0 +1,69 @@
+body{
+    font-family: 'Inter', sans-serif;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    line-height: 1.5;
+    font-size: clamp(14px, 1.5vw, 16px);
+}
+
+h1{
+    text-align: center;
+    font-size: 7vw;
+    margin-block-end: 0;
+}
+
+h3, h4{
+    margin-block-end: 0;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+ul{
+    list-style-type: square;
+}
+
+i{
+    font-size: small;
+}
+
+footer{
+    color: grey;
+    margin-top: 5rem;
+}
+
+.personal{
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+
+@media (max-width: 1200px){
+    h1{
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 1000px){
+    h1{
+        font-size: 10vw;
+    }
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 12vw;
+    }
+
+    .personal{
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 500px){
+    .personal{
+        font-size: x-small;
+    }
+}

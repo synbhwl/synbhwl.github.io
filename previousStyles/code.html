@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>synbhwl</title>
+</head>
+<body> 
+    <div class="whole">
+        <div class="fncontain">
+            <div class="filename">portfolio.py</div>
+        </div>
+        <div class="content">
+            <p class="importstatement"><span class="key">from</span> backend <span class="key">import</span> Sayan</p>
+            <p class="hlt">"""</p>
+            <p><span class="hlt">I am a backend developer. I specialize in Python (FastAPI). I have made various backend projects including LLM APIs integrated microservices, URL shortener, Messaging API and so on. I love terminals.</span></p>
+            <p><span class="hlt">For a no-code/clean-html version of this portfolio, <a href="raw.html" class="rawlink">click here</a></span></p>
+            <p><span class="hlt">To hire me, <a href="mailto:sayanbhowalcode@gmail.com?subject=Hire Sayan Bhowal" class="rawlink">click here</a></span></p>
+            <p class="hlt">"""</p>
+            <pre class="codeblock"><code>
+<span class="var">personal_details</span> = <span class="sym">{</span>
+    <span class="string">"name"</span> : <span class="string">"Sayan Bhowal"</span>,
+    <span class="string">"age"</span> : <span class="int">19</span>,
+    <span class="string">"email"</span> : <span class="string">"sayanbhowalcode@gmail.com"</span>,
+    <span class="string">"github"</span> : <span class="string"><a href="https://github.com/synbhwl">"https://github.com/synbhwl"</a></span>
+    <span class="string">"Linkedin"</span> : <span class="string"><a href="https://www.linkedin.com/in/synbhwl">"linkedin.com/in/synbhwl"</a></span>
+<span class="sym">}</span>
+           
+<span class="var">tech_stack</span> = <span class="sym">{</span>
+    <span class="string">"main_stack"</span> : <span class="sym2">[</span><span class="string">"FastAPI"</span>, <span class="string">"Python"</span>, <span class="string">"Golang"</span><span class="sym2">]</span>,
+    <span class="string">"other_langs"</span> : <span class="sym2">[</span><span class="string">"C++"</span>, <span class="string">"Bash"</span>, <span class="string">"Java"</span><span class="sym2">]</span>
+    <span class="string">"frontend"</span> : <span class="sym2">[</span><span class="string">"JavaScript"</span>, <span class="string">"HTML"</span>, <span class="string">"CSS"</span><span class="sym2">]</span>
+    <span class="string">"other_stack"</span> : <span class="sym2">[</span><span class="string">"Node.js"</span>, <span class="string">"Express.js"</span>, <span class="string">"Axios.js"</span><span class="sym2">]</span>,
+    <span class="string">"databases"</span> : <span class="sym2">[</span><span class="string">"SQLite"</span>, <span class="string">"PostgreSQL"</span><span class="sym2">]</span>,
+    <span class="string">"deployment"</span> : <span class="sym2">[</span><span class="string">"Railway"</span><span class="sym2">]</span>,
+    <span class="string">"workflow"</span> : <span class="sym2">[</span><span class="string">"vim"</span>, <span class="string">"markdown"</span>, <span class="string">"git"</span><span class="sym2">]</span>
+<span class="sym">}</span>
+    
+<span class="hlt"># Below are a few projects I have made. The URLs are clickable.</span>
+
+<span class="var">projects</span> = {
+    <span class="string">"MOCHI"</span> : {
+        <span class="string">"repo"</span> : <span class="string"><a href="https://github.com/synbhwl/mochi">"https://github.com/synbhwl/mochi"</a></span>,
+        <span class="string">"stack"</span> : [<span class="string">"FastAPI"<span class="sym">,</span> "GroqAPI"<span class="sym">,</span> "PostgresSQL"</span>],
+        <span class="string">"desc"</span> : <span class="string">'''FastAPI based URL shortener with custom
+                    alias, expiry, analytics, and
+                    postgres integration'''</span>
+    },
+    <span class="string">"NEMON"</span> : {
+        <span class="string">"repo"</span> : <span class="string"><a href="https://github.com/synbhwl/nemon">"https://github.com/synbhwl/nemon"</a></span>,
+        <span class="string">"stack"</span> : [<span class="string">"FastAPI"<span class="sym">,</span> "GroqAPI"<span class="sym">,</span> "Beautifulsoup"</span>],
+        <span class="string">"desc"</span> : <span class="string">'''Webpage summarizer using GroqAPI,
+                    Beautifulsoup, markdown and server side
+                    prompt development'''</span>
+    },
+    <span class="string">"SAW"</span> : {
+        <span class="string">"repo"</span> : <span class="string"><a href="https://github.com/synbhwl/saw">"https://github.com/synbhwl/saw"</a></span>,
+        <span class="string">"stack"</span> : [<span class="string">"FastAPI"<span class="sym">,</span> "GroqAPI"</span>],
+        <span class="string">"desc"</span> : <span class="string">'''A very fast assignment writer,
+                    directly usable from browser address bar, 
+                    with inetegrated GroqAPI'''</span>
+    },
+    <span class="string">"BARELY_SOCIAL"</span> : {
+        <span class="string">"repo"</span> : <span class="string"><a href="https://github.com/synbhwl/BarelySocial">"https://github.com/synbhwl/BarelySocial"</a></span>,
+        <span class="string">"stack"</span> : [<span class="string">"FastAPI"<span class="sym">,</span> "PostgreSQL"</span>],
+        <span class="string">"desc"</span> : <span class="string">'''Backend only messaging API. User auth, and 
+                    history supported. Supports viewing/sending 
+                    messages to usernames and chat list viewing. 
+                    Persistence with postgres.'''</span>
+    },
+    <span class="string">"GOTODO"</span> : {
+        <span class="string">"repo"</span> : <span class="string"><a href="https://github.com/synbhwl/gotodo">"https://github.com/synbhwl/gotodo"</a></span>,
+        <span class="string">"stack"</span> : [<span class="string">"Golang"</span>],
+        <span class="string">"desc"</span> : <span class="string">'''Backend-only public JSON playground. 
+                    No auth or restrictions. Any user can 
+                    perform CRUD operations on any message. 
+                    Renders in a TODO list format.'''</span>
+    },
+    <span class="string">"RETROCHAT"</span> : {
+        <span class="string">"repo"</span> : <span class="string"><a href="https://github.com/synbhwl/retrochat">"https://github.com/synbhwl/retrochat"</a></span>,
+        <span class="string">"stack"</span> : [<span class="string">"Node.js"<span class="sym">,</span> "Express.js"<span class="sym">,</span> "HTML"<span class="sym">,</span> "CSS"</span>],
+        <span class="string">"desc"</span> : <span class="string">'''Chatbot with 90s retro aesthetic,
+                    with imitation feature for various
+                    personalities, with inetegrated GroqAPI'''</span>
+    },
+    <span class="string">"ALL_PROJECTS"</span> : <span class="string"><a href="https://github.com/synbhwl?tab=repositories">"https://github.com/synbhwl"</a></span>
+}
+
+<span class="hlt"># And finally, some goals I have</span>
+
+goals = []
+
+goals.<span class="func">append</span>(<span class="string">"Create something that people extensively use."</span>)
+goals.<span class="func">append</span>(<span class="string">"Master low-level debugging."</span>)
+goals.<span class="func">append</span>(<span class="string">"Master terminal workflow"</span>)
+goals.<span class="func">append</span>(<span class="string">"Make a cyberdeck"</span>)
+
+<span class="key">def</span> <span class="func">show_myself</span>():
+    <span class="key">return</span> Sayan
+
+<span class="func">print</span>(<span class="func">show_myself</span>())
+
+<p><span class="hlt">To join our discord server (Barely Devs), <a href="https://discord.gg/MaVRy5PWcw" class="rawlink">click here</a></span></p>
+</code></pre>
+        </div>
+        <footer>
+        <div class="terminal">
+            <span class="tname">synbhwl@synbhwl-PC</span> <span class="func">MINGW32</span> ~/Users/synbhwl/Dev/portfolio <span class="other">(main)</span><br>
+            $ python portfolio.py <br><br>
+            <img class="pic" src="resources/uglyme.jpg" alt="my_photo">
+            
+        </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

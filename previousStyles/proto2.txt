@@ -1,0 +1,135 @@
+<div class="topHead">
+        <div class="logo"><i>SB.</i></div>
+        <div class="nav_bar">
+            <div class="navBtn linkIcon"><i class="fa fa-link"></i></div>
+            <div class="navBtn">Github</div>
+            <div class="navBtn">Linkedin</div>
+            <div class="navBtn">Email</div>
+            <div class="navBtn">Medium</div>
+        </div>
+    </div>
+    <div class="main_head">
+        <!-- <div class="nav_bar">
+            <div class="navBtn linkIcon"><i class="fa fa-link"></i></div>
+            <div class="navBtn">Github</div>
+            <div class="navBtn">Linkedin</div>
+            <div class="navBtn">Email</div>
+            <div class="navBtn">Medium</div>
+        </div> -->
+        <div class="title"><i>&nbsp;Hi, I'm</i><br>&nbsp;&nbsp;&nbsp;Sayan <br><i>&nbsp;Bhowal;</i></div>
+    </div>
+    
+    <div class="introContainer">
+        <div class="headingMe">
+            Me.
+        </div>
+        <div class="intro">
+            <div class="mypic"><img src="resources/uglyme.jpg" alt="my photo"></div>
+            <div class="introDesciption">I discovered programming as a way to keep myself occupied, but ended up aligning my whole life towards a resolute goal of becoming an exceptional engineer. Hi, I am Sayan Bhowal, the guy who taught himself to code with just a windows 7 and a sheer will to succeed.</div>
+        </div>
+    </div>
+
+
+    
+body{
+    padding: 2.5rem;
+    padding-top: 0.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.topHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.logo{
+    font-size: 3.5rem;
+    font-family:"EB Garamond", serif;
+    font-weight: 500;
+}
+
+.main_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    gap: 2rem;
+    
+}
+
+.title{
+    line-height: 0.75;
+    font-size: 7rem;
+    font-weight: 500;
+    font-family: "EB Garamond", serif;
+}
+
+.sayan{
+    margin-left: 10rem;
+}
+
+.nav_bar{
+    background-color: black;
+    padding: 0.4rem;
+    border-radius: 1.5rem;
+    display: flex;
+    gap: 0.2rem;
+    opacity: 75%;
+}
+
+.nav_bar:hover{
+    opacity: 100%;
+}
+
+.navBtn{
+    /* background-color: black; */
+    padding: 0.35rem;
+    border-radius: 5rem;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.linkIcon{
+    background-color: white;
+    color: black;
+}
+
+.introContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 10rem;
+}
+
+.headingMe{
+    width: 60%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: -1.7rem;
+    z-index: 1000;
+}
+
+.intro{
+    display: flex;
+    max-width: 60%;
+}
+
+.mypic img{
+    height: 100%;
+    width: 20rem;
+}
+
+
+.introDesciption{
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    /* font-size: 1.35rem; */
+    /* height: 20rem; */
+}

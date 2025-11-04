@@ -1,0 +1,119 @@
+html{
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+    color: #121212;
+}
+
+body{
+    padding: 2rem;
+    letter-spacing: -0.025em;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    font-weight: 600;
+}
+
+.name{
+    font-size: 12rem;
+    letter-spacing: -0.07em;
+    text-align: center;
+    margin-bottom: -6rem;
+    font-family: "Instrument Serif", serif;
+}
+
+.containerForFlexPhoto{
+    display: flex;
+    justify-content: center;
+}
+
+.photoContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    width: 60%;
+}
+
+.photoContainer img{
+    height: 19rem;
+}
+
+#sd1{
+    text-align: right;
+}
+
+.sideDescription{
+    font-size: 0.85rem;
+}
+
+.backendDev{
+    color: red;
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 2px
+}
+
+.capS{
+    border: 0.001px solid black;
+    padding: 5px;
+    font-weight: 500;
+    height: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.contactDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.01px solid black;
+    padding: 0.05rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    font-size: 5rem;
+    font-weight: 100;
+    margin-bottom: 0.75rem;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+}
+
+.arrow img{
+    height: 8rem;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    margin-bottom: 5rem;
+}
+
+.intro{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-size:1.5rem;
+    color: #4a4a4a;
+}

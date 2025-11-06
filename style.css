@@ -141,6 +141,7 @@ body{
     background-color: #f5f5f5;
     opacity: 0.95;
     padding: 1rem;
+    padding-left: 0;
     /* padding-left: 1.5rem;
     padding-right: 1.5rem; */
     z-index: 1000;
@@ -154,4 +155,8 @@ body{
 
 .ctaSection{
     margin-top: 7rem;
+}
+
+.logoIcon img{
+    height: 4rem;
 }

@@ -23,7 +23,7 @@ body {
 
 .category_headings, .essay_headings{
     font-size: 1.25em;
-    text-underline-offset: 25%;
+    text-underline-offset: 50%;
     margin-bottom: 5vh;
 }
 

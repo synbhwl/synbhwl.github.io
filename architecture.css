@@ -1,0 +1,45 @@
+@import
+url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+    background-color: #f2f0ea;
+    color: #1a1d20;
+    letter-spacing: -0.05em;
+    font-family: 'jetBrains Mono', monospace;
+    line-height: 1.25;
+    font-size: 1em;
+    text-shadow: none;
+}
+
+body {
+    margin: 5vh 8vw;
+}
+
+.disclaimer{
+    text-align: center;
+    margin-bottom: 15vh;
+    font-size: 0.85em;
+}
+
+.category_headings, .essay_headings{
+    font-size: 1.25em;
+    text-underline-offset: 25%;
+    margin-bottom: 5vh;
+}
+
+a{
+    text-decoration: underline dotted grey;
+    text-underline-offset: 25%;
+}
+
+p{
+    text-align: justify;
+}
+
+ul{
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 1.5vh;
+}

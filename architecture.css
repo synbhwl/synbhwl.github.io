@@ -55,8 +55,7 @@ li {
 
 /* decorative shit */
 
-.homeBtn{
-    border: 1.5px #1a1d20 dotted;
-    border-radius: 7.5px;
-    margin-bottom: 1em;
+.homeLink{
+    font-size: 0.9em;
+    text-decoration: none;
 }

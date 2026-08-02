@@ -27,8 +27,13 @@ body {
     margin-bottom: 5vh;
 }
 
-a{
+a {
     text-decoration: underline dotted grey;
+    text-underline-offset: 25%;
+}
+
+.footnotes {
+    text-decoration: underline solid grey;
     text-underline-offset: 25%;
 }
 

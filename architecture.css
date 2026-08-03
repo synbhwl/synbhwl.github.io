@@ -75,14 +75,14 @@ li {
     align-items: center;
     justify-content: center;
     padding: 0.25em;
-    height: 2.5em;
-    width: 2.5em;
+    height: 3em;
+    width: 3em;
     opacity: 75%;
 }
 
 .icon-top{
-    width: 1.5em;
-    height: 1.5em;
+    width: 2em;
+    height: 2em;
     background-color: white;
     margin-bottom: -5px;
 }

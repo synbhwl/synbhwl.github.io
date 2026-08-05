@@ -85,9 +85,16 @@ li {
     margin-bottom: 4vh;
 } */
 
+.image_grid{
+    margin-top: 2.5vh;
+}
+.image_grid div{
+    margin-bottom: -0.5vh;
+}
+
 .image_grid img{
     height: 24vh;
-    margin-top: 4vh;
+    /* margin-top: 4vh; */
 }
 
 @media (max-width: 500px) {

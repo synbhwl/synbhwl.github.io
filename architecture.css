@@ -90,6 +90,13 @@ li {
     margin-top: 4vh;
 }
 
+@media (max-width: 500px) {
+    .image_grid img{
+        height: 8vh;
+    }
+}
+  
+
 
 
 

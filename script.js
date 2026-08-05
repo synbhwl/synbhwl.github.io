@@ -16,3 +16,12 @@ topBtn.addEventListener("click", function(){
         behavior: 'smooth'
       });
 })
+
+const timeString = new Date().toLocaleTimeString([], {
+  hour: '2-digit',
+  minute: '2-digit',
+  hour12: true
+});
+
+const clock = document.querySelector(".clock")
+clock.innerHTML = `<b>${timeString}</b>`

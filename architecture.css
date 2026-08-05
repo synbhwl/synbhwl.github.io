@@ -123,3 +123,9 @@ li {
     background-color: white;
     margin-bottom: -5px;
 }
+
+.top_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

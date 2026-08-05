@@ -27,7 +27,7 @@ body {
     font-size: 0.9em;
 }
 
-.category_headings, .essay_headings, .poem_headings{
+.category_headings, .essay_headings, .poem_headings, .designs_heading, .photos_heading{
     font-size: 1.25em;
     text-underline-offset: 50%;
     margin-bottom: 5vh;
@@ -73,38 +73,24 @@ li {
     margin-bottom: 4vh;
 }
 
-/* .each_design span{
-    font-size: 0.9em;
-} */
-
 #ps1{
     font-size: 0.9em;
 }
-
-/* .photos_div span{
-    margin-bottom: 4vh;
-} */
-
-.image_grid{
-    margin-top: 2.5vh;
-}
-.image_grid div{
-    margin-bottom: -0.5vh;
-}
-
-.image_grid img{
-    height: 24vh;
-    /* margin-top: 4vh; */
-}
-
-@media (max-width: 500px) {
-    .image_grid img{
-        height: 8vh;
-    }
-}
   
+.photo_img{
+    height: 24vh;
+      box-shadow: 
+        0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
 
-
+.photo_img_div{
+    margin-bottom: 4vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 4vw;
+}
 
 
 

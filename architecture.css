@@ -78,18 +78,16 @@ li {
 }
   
 .photo_img{
-    height: 24vh;
-      box-shadow: 
-        0 20px 25px -5px rgba(0, 0, 0, 0.1),
-        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    height: 32vh;
 }
 
 .photo_img_div{
-    margin-bottom: 4vh;
+    margin-bottom: 8vh;
     display: flex;
+    flex-direction: column;
     justify-content: left;
-    align-items: center;
-    gap: 4vw;
+    align-items: flex-start;
+    gap: 2.5vh;
 }
 
 

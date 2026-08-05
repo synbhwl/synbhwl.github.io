@@ -27,7 +27,7 @@ body {
     font-size: 0.9em;
 }
 
-.category_headings, .essay_headings{
+.category_headings, .essay_headings, .poem_headings{
     font-size: 1.25em;
     text-underline-offset: 50%;
     margin-bottom: 5vh;
@@ -35,7 +35,7 @@ body {
 
 a {
     text-decoration: underline dotted grey;
-    text-underline-offset: 25%;
+    text-underline-offset: 40%;
 }
 
 .footnotes {
@@ -55,6 +55,22 @@ ul{
 
 li {
     margin-bottom: 1.5vh;
+}
+
+.essays_div, .poems_div,.designs_div{
+    margin-bottom: 16vh;
+}
+
+.designs_img{
+    height: 40vh;
+}
+
+.each_design{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 4vw;
+    margin-bottom: 4vh;
 }
 
 /* decorative shit */

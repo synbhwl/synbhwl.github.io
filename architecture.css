@@ -30,7 +30,7 @@ body {
 .category_headings, .essay_headings, .poem_headings, .designs_heading, .photos_heading{
     font-size: 1.25em;
     text-underline-offset: 50%;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 a {

@@ -73,6 +73,29 @@ li {
     margin-bottom: 4vh;
 }
 
+/* .each_design span{
+    font-size: 0.9em;
+} */
+
+#ps1{
+    font-size: 0.9em;
+}
+
+/* .photos_div span{
+    margin-bottom: 4vh;
+} */
+
+.image_grid img{
+    height: 24vh;
+    margin-top: 4vh;
+}
+
+
+
+
+
+
+
 /* decorative shit */
 
 .homeLink{

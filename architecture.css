@@ -128,4 +128,6 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: #1a1d20 dotted 1px;
+    padding-bottom: 1vh;
 }

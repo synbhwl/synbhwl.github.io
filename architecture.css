@@ -131,3 +131,7 @@ li {
     border-bottom: #1a1d20 dotted 1px;
     padding-bottom: 1vh;
 }
+
+.fnum{
+    color: blue;
+}

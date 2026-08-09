@@ -17,11 +17,17 @@ topBtn.addEventListener("click", function(){
       });
 })
 
-const timeString = new Date().toLocaleTimeString([], {
-  hour: '2-digit',
-  minute: '2-digit',
-  hour12: true
-});
+function updateTime(){
+  const timeString = new Date().toLocaleTimeString([], {
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true
+  });
+  
+  const clock = document.querySelector(".clock")
+  clock.innerHTML = `<b>${timeString}</b>`
+}
 
-const clock = document.querySelector(".clock")
-clock.innerHTML = `<b>${timeString}</b>`
+updateTime();
+
+setInterval(updateTime, 1000);

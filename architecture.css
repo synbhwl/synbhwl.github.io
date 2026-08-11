@@ -27,7 +27,7 @@ body {
     font-size: 0.9em;
 }
 
-.category_headings, .essay_headings, .poem_headings, .designs_heading, .photos_heading{
+.category_headings, .essay_headings, .poem_headings, .designs_heading, .photos_heading, .movies_heading{
     font-size: 1.25em;
     text-underline-offset: 50%;
     margin-bottom: 3vh;
@@ -73,11 +73,11 @@ li {
     margin-bottom: 4vh;
 } */
 
-.designs_img{
+.designs_img, .movie_img{
     width: 100%;
 }
 
-.each_design{
+.each_design, .each_movie{
     margin-bottom: 8vh;
     display: flex;
     flex-direction: column;
@@ -105,7 +105,18 @@ li {
     gap: 2.5vh;
 }
 
+.movie_row{
+    /* width: 70%; */
+    display: flex;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
 
+.movie_row img{
+    height: auto;
+    flex: 1;
+    min-width: 0;
+}
 
 
 

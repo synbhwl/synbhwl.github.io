@@ -61,7 +61,7 @@ li {
     margin-bottom: 8vh;
 }
 
-.designs_img{
+/* .designs_img{
     height: 24vh;
 }
 
@@ -71,7 +71,21 @@ li {
     justify-content: left;
     gap: 4vw;
     margin-bottom: 4vh;
+} */
+
+.designs_img{
+    width: 100%;
 }
+
+.each_design{
+    margin-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 2.5vh;
+} 
+
 
 #ps1{
     font-size: 0.9em;

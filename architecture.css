@@ -161,3 +161,44 @@ li {
 .fnum{
     color: blue;
 }
+
+/* showcase */
+
+.design_showcase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 12vh;
+}
+
+.imgshow{
+    /* background-color: yellow; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgshow img{
+    width: 80%;
+}
+
+.leftarrowbtn, .rightarrowbtn{
+    background-color: white;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25em;
+    height: 3em;
+    width: 3em;
+    opacity: 75%;
+    font-weight: bold;
+}
+
+.heading_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}

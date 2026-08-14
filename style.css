@@ -2,3 +2,7 @@
     font-family: monospace !important;
     line-height: 1.5;
 }
+
+body{
+    text-align: justify;
+}

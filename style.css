@@ -1,3 +1,7 @@
+html{
+    margin: 5vh 8vw;
+}
+
 * {
     font-family: monospace !important;
     line-height: 1.5;
@@ -5,10 +9,9 @@
 
 body{
     text-align: justify;
-    overflow-x: hidden;
 }
 
 img{
-    max-width: 100%;
     width: 100%;
+    
 }

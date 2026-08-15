@@ -8,5 +8,6 @@ body{
 }
 
 img{
-    width: 75%;
+    width: 100%;
+    max-width: 75%;
 }
